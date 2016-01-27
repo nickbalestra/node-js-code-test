@@ -6,7 +6,7 @@ var robot = require('./robotwars-logic');
 var actions = {
     'GET': (request, response) => {
       var input = queryString.parse(queryString.extract(request.url));
-      var output = robot(input.data);
+      var output = { results: robot(input.data) };
       utils.respond(response, output);
     }
 };

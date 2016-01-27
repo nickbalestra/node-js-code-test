@@ -13,7 +13,7 @@ Start the API server (by default it will listen at 127.0.0.1, port 3000):
 
 - The endpoint is `/robotwars`
 - The query format should be ?data='5 5\n1 2 N\nLMLMLMLMM\n3 3 E\nMMRMMRMRRM
-- The response will be in json format, containing a multiline string representing final coordinates and headings of each robot passed to the API
+- The response will be in json format, containing a multiline string representing final coordinates and headings of each robot passed to the API: example: `{"results":["1 3 N","5 1 E"]}`
 
 For testing purpose you can use the following curl comand:
 

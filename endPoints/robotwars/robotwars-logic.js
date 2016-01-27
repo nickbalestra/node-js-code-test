@@ -66,7 +66,7 @@ function robotLogic(input) {
 
     output.push('' + robot.x + ' ' + robot.y + ' ' + robot.heading);
   }
-  return output.join('\n');
+  return output;
 
 
   // Navigation helper
